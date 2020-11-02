@@ -15,7 +15,6 @@
 		8C6A138E254FAB3200614B4A /* addAndRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A138D254FAB3200614B4A /* addAndRemove.m */; };
 		8C9BC86A254C7F7B00960FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BC869254C7F7B00960FDD /* main.m */; };
 		8CB76AFD254CAAA000320D3C /* NSURLTagger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB76AFC254CAAA000320D3C /* NSURLTagger.m */; };
-		8CB76B00254CB83A00320D3C /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB76AFF254CB83A00320D3C /* bridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,8 +46,6 @@
 		8C9BC869254C7F7B00960FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CB76AFB254CAA4E00320D3C /* NSURLTagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLTagger.h; sourceTree = "<group>"; };
 		8CB76AFC254CAAA000320D3C /* NSURLTagger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLTagger.m; sourceTree = "<group>"; };
-		8CB76AFF254CB83A00320D3C /* bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = "<group>"; };
-		8CB76B02254CB97400320D3C /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,16 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				8C6A137E254FA65600614B4A /* Tags */,
-				8C6A137D254FA60F00614B4A /* Converters */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		8C6A137D254FA60F00614B4A /* Converters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Converters;
 			sourceTree = "<group>";
 		};
 		8C6A137E254FA65600614B4A /* Tags */ = {
@@ -123,11 +112,9 @@
 			children = (
 				8C6A1376254F9D8E00614B4A /* Models */,
 				8C9BC869254C7F7B00960FDD /* main.m */,
-				8CB76AFF254CB83A00320D3C /* bridge.m */,
 				8C6A1378254FA47F00614B4A /* TGFileProperties.m */,
 				8C6A137C254FA5F700614B4A /* Utility */,
 				8C6A1377254FA41400614B4A /* TGFileProperties.h */,
-				8CB76B02254CB97400320D3C /* bridge.h */,
 				8CB76AFB254CAA4E00320D3C /* NSURLTagger.h */,
 				8CB76AFC254CAAA000320D3C /* NSURLTagger.m */,
 			);
@@ -195,7 +182,6 @@
 				8C6A1372254F9C0800614B4A /* FileProperties.m in Sources */,
 				8C6A1387254FA82D00614B4A /* GetHelpers.m in Sources */,
 				8C6A136D254F990E00614B4A /* TagComponents.m in Sources */,
-				8CB76B00254CB83A00320D3C /* bridge.m in Sources */,
 				8C6A1379254FA47F00614B4A /* TGFileProperties.m in Sources */,
 				8CB76AFD254CAAA000320D3C /* NSURLTagger.m in Sources */,
 				8C9BC86A254C7F7B00960FDD /* main.m in Sources */,
