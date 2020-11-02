@@ -335,7 +335,7 @@
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "$(TARGET_PREFIX)/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/libtags/include";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/include/libtags";
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -349,7 +349,7 @@
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "$(TARGET_PREFIX)/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/libtags/include";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/include/libtags";
 				SKIP_INSTALL = NO;
 			};
 			name = Release;
