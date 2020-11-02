@@ -22,7 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C6A139D254FAEF300614B4A /* liblibtags.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibtags.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2A68E325507409005A5A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6A139D254FAEF300614B4A /* libtags.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtags.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6A13AB254FAF4800614B4A /* NSURLTagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTagger.m; sourceTree = "<group>"; };
 		8C6A13AC254FAF4800614B4A /* NSURLTagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTagger.h; sourceTree = "<group>"; };
 		8C6A13AF254FAF4800614B4A /* addAndRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addAndRemove.h; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		8C6A1394254FAEF300614B4A = {
 			isa = PBXGroup;
 			children = (
+				8C2A68E325507409005A5A01 /* Info.plist */,
 				8C6A139F254FAEF300614B4A /* libtags */,
 				8C6A139E254FAEF300614B4A /* Products */,
 			);
@@ -59,7 +61,7 @@
 		8C6A139E254FAEF300614B4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C6A139D254FAEF300614B4A /* liblibtags.dylib */,
+				8C6A139D254FAEF300614B4A /* libtags.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +150,7 @@
 			);
 			name = libtags;
 			productName = libtags;
-			productReference = 8C6A139D254FAEF300614B4A /* liblibtags.dylib */;
+			productReference = 8C6A139D254FAEF300614B4A /* libtags.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -314,12 +316,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
-				INSTALL_PATH = "$(TARGET_PREFIX)/lib";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.1;
+				DYLIB_CURRENT_VERSION = 0.0.1;
+				INFOPLIST_FILE = "$(SRCROOT)/libtags/Info.plist";
+				INSTALL_PATH = /lib;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(PROJECT_NAME)";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegomagdaleno.libtags;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/include/libtags";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/libtags;
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -328,12 +334,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
-				INSTALL_PATH = "$(TARGET_PREFIX)/lib";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.1;
+				DYLIB_CURRENT_VERSION = 0.0.1;
+				INFOPLIST_FILE = "$(SRCROOT)/libtags/Info.plist";
+				INSTALL_PATH = /lib;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(PROJECT_NAME)";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegomagdaleno.libtags;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/include/libtags";
+				PUBLIC_HEADERS_FOLDER_PATH = /include/libtags;
 				SKIP_INSTALL = NO;
 			};
 			name = Release;
