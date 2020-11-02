@@ -15,8 +15,6 @@
 		8C6A13C2254FAF4800614B4A /* GetHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B2254FAF4800614B4A /* GetHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C3254FAF4800614B4A /* addAndRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B3254FAF4800614B4A /* addAndRemove.m */; };
 		8C6A13C4254FAF4800614B4A /* tagHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B4254FAF4800614B4A /* tagHelpers.m */; };
-		8C6A13C5254FAF4800614B4A /* TGFileProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B6254FAF4800614B4A /* TGFileProperties.m */; };
-		8C6A13C6254FAF4800614B4A /* TGFileProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B7254FAF4800614B4A /* TGFileProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C7254FAF4800614B4A /* FileProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B9254FAF4800614B4A /* FileProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C8254FAF4800614B4A /* TagComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13BA254FAF4800614B4A /* TagComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C9254FAF4800614B4A /* TagComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13BB254FAF4800614B4A /* TagComponents.m */; };
@@ -33,8 +31,6 @@
 		8C6A13B2254FAF4800614B4A /* GetHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetHelpers.h; sourceTree = "<group>"; };
 		8C6A13B3254FAF4800614B4A /* addAndRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addAndRemove.m; sourceTree = "<group>"; };
 		8C6A13B4254FAF4800614B4A /* tagHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tagHelpers.m; sourceTree = "<group>"; };
-		8C6A13B6254FAF4800614B4A /* TGFileProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGFileProperties.m; sourceTree = "<group>"; };
-		8C6A13B7254FAF4800614B4A /* TGFileProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGFileProperties.h; sourceTree = "<group>"; };
 		8C6A13B9254FAF4800614B4A /* FileProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileProperties.h; sourceTree = "<group>"; };
 		8C6A13BA254FAF4800614B4A /* TagComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagComponents.h; sourceTree = "<group>"; };
 		8C6A13BB254FAF4800614B4A /* TagComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagComponents.m; sourceTree = "<group>"; };
@@ -73,7 +69,6 @@
 			children = (
 				8C6A13AA254FAF4800614B4A /* Extensions */,
 				8C6A13B8254FAF4800614B4A /* Models */,
-				8C6A13B5254FAF4800614B4A /* Structs */,
 				8C6A13AD254FAF4800614B4A /* Utility */,
 			);
 			path = libtags;
@@ -109,15 +104,6 @@
 			path = Tags;
 			sourceTree = "<group>";
 		};
-		8C6A13B5254FAF4800614B4A /* Structs */ = {
-			isa = PBXGroup;
-			children = (
-				8C6A13B6254FAF4800614B4A /* TGFileProperties.m */,
-				8C6A13B7254FAF4800614B4A /* TGFileProperties.h */,
-			);
-			path = Structs;
-			sourceTree = "<group>";
-		};
 		8C6A13B8254FAF4800614B4A /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +124,6 @@
 			files = (
 				8C6A13C2254FAF4800614B4A /* GetHelpers.h in Headers */,
 				8C6A13C7254FAF4800614B4A /* FileProperties.h in Headers */,
-				8C6A13C6254FAF4800614B4A /* TGFileProperties.h in Headers */,
 				8C6A13C1254FAF4800614B4A /* tagHelpers.h in Headers */,
 				8C6A13BE254FAF4800614B4A /* NSURLTagger.h in Headers */,
 				8C6A13BF254FAF4800614B4A /* addAndRemove.h in Headers */,
@@ -206,7 +191,6 @@
 				8C6A13BD254FAF4800614B4A /* NSURLTagger.m in Sources */,
 				8C6A13C0254FAF4800614B4A /* GetHelpers.m in Sources */,
 				8C6A13C9254FAF4800614B4A /* TagComponents.m in Sources */,
-				8C6A13C5254FAF4800614B4A /* TGFileProperties.m in Sources */,
 				8C6A13C3254FAF4800614B4A /* addAndRemove.m in Sources */,
 				8C6A13C4254FAF4800614B4A /* tagHelpers.m in Sources */,
 			);
