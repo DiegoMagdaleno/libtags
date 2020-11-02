@@ -1,0 +1,14 @@
+//
+//  GetHelpers.h
+//  tagger
+//
+//  Created by Diego Magdaleno on 11/1/20.
+//
+
+#ifndef GetHelpers_h
+#define GetHelpers_h
+
+const NSArray* getTagList(void);
+const NSArray* getTagsOfFile(char const*);
+
+#endif /* GetHelpers_h */

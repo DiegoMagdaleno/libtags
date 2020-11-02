@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSURLTagger.h"
+#import "bridge.h"
+#import "GetHelpers.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
-    return 0;
+    NSArray* test = getFilesWithCertainMacOSTag(@"/Users/me/Documents/ScreenShots/E.png", @"Orange");
+    
+    getTagList();
 }

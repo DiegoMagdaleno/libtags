@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6A136D254F990E00614B4A /* TagComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A136C254F990E00614B4A /* TagComponents.m */; };
+		8C6A1372254F9C0800614B4A /* FileProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A1371254F9C0800614B4A /* FileProperties.m */; };
+		8C6A1379254FA47F00614B4A /* TGFileProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A1378254FA47F00614B4A /* TGFileProperties.m */; };
+		8C6A1380254FA67F00614B4A /* tagHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A137F254FA67F00614B4A /* tagHelpers.m */; };
+		8C6A1387254FA82D00614B4A /* GetHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A1386254FA82D00614B4A /* GetHelpers.m */; };
+		8C6A138E254FAB3200614B4A /* addAndRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A138D254FAB3200614B4A /* addAndRemove.m */; };
 		8C9BC86A254C7F7B00960FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BC869254C7F7B00960FDD /* main.m */; };
+		8CB76AFD254CAAA000320D3C /* NSURLTagger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB76AFC254CAAA000320D3C /* NSURLTagger.m */; };
+		8CB76B00254CB83A00320D3C /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB76AFF254CB83A00320D3C /* bridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +31,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C6A136C254F990E00614B4A /* TagComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagComponents.m; sourceTree = "<group>"; };
+		8C6A136F254F991F00614B4A /* TagComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagComponents.h; sourceTree = "<group>"; };
+		8C6A1371254F9C0800614B4A /* FileProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileProperties.m; sourceTree = "<group>"; };
+		8C6A1374254F9C1800614B4A /* FileProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileProperties.h; sourceTree = "<group>"; };
+		8C6A1377254FA41400614B4A /* TGFileProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGFileProperties.h; sourceTree = "<group>"; };
+		8C6A1378254FA47F00614B4A /* TGFileProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFileProperties.m; sourceTree = "<group>"; };
+		8C6A137F254FA67F00614B4A /* tagHelpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tagHelpers.m; sourceTree = "<group>"; };
+		8C6A1384254FA69D00614B4A /* tagHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tagHelpers.h; sourceTree = "<group>"; };
+		8C6A1386254FA82D00614B4A /* GetHelpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetHelpers.m; sourceTree = "<group>"; };
+		8C6A1389254FA89000614B4A /* GetHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetHelpers.h; sourceTree = "<group>"; };
+		8C6A138B254FAB1700614B4A /* addAndRemove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addAndRemove.h; sourceTree = "<group>"; };
+		8C6A138D254FAB3200614B4A /* addAndRemove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addAndRemove.m; sourceTree = "<group>"; };
 		8C9BC866254C7F7B00960FDD /* tagger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tagger; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9BC869254C7F7B00960FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CB76AFB254CAA4E00320D3C /* NSURLTagger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLTagger.h; sourceTree = "<group>"; };
+		8CB76AFC254CAAA000320D3C /* NSURLTagger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLTagger.m; sourceTree = "<group>"; };
+		8CB76AFF254CB83A00320D3C /* bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = "<group>"; };
+		8CB76B02254CB97400320D3C /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +62,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C6A1376254F9D8E00614B4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C6A136F254F991F00614B4A /* TagComponents.h */,
+				8C6A136C254F990E00614B4A /* TagComponents.m */,
+				8C6A1374254F9C1800614B4A /* FileProperties.h */,
+				8C6A1371254F9C0800614B4A /* FileProperties.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C6A137C254FA5F700614B4A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8C6A137E254FA65600614B4A /* Tags */,
+				8C6A137D254FA60F00614B4A /* Converters */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8C6A137D254FA60F00614B4A /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Converters;
+			sourceTree = "<group>";
+		};
+		8C6A137E254FA65600614B4A /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				8C6A137F254FA67F00614B4A /* tagHelpers.m */,
+				8C6A1384254FA69D00614B4A /* tagHelpers.h */,
+				8C6A1386254FA82D00614B4A /* GetHelpers.m */,
+				8C6A1389254FA89000614B4A /* GetHelpers.h */,
+				8C6A138B254FAB1700614B4A /* addAndRemove.h */,
+				8C6A138D254FAB3200614B4A /* addAndRemove.m */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
 		8C9BC85D254C7F7A00960FDD = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +121,15 @@
 		8C9BC868254C7F7B00960FDD /* tagger */ = {
 			isa = PBXGroup;
 			children = (
+				8C6A1376254F9D8E00614B4A /* Models */,
 				8C9BC869254C7F7B00960FDD /* main.m */,
+				8CB76AFF254CB83A00320D3C /* bridge.m */,
+				8C6A1378254FA47F00614B4A /* TGFileProperties.m */,
+				8C6A137C254FA5F700614B4A /* Utility */,
+				8C6A1377254FA41400614B4A /* TGFileProperties.h */,
+				8CB76B02254CB97400320D3C /* bridge.h */,
+				8CB76AFB254CAA4E00320D3C /* NSURLTagger.h */,
+				8CB76AFC254CAAA000320D3C /* NSURLTagger.m */,
 			);
 			path = tagger;
 			sourceTree = "<group>";
@@ -118,6 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6A138E254FAB3200614B4A /* addAndRemove.m in Sources */,
+				8C6A1380254FA67F00614B4A /* tagHelpers.m in Sources */,
+				8C6A1372254F9C0800614B4A /* FileProperties.m in Sources */,
+				8C6A1387254FA82D00614B4A /* GetHelpers.m in Sources */,
+				8C6A136D254F990E00614B4A /* TagComponents.m in Sources */,
+				8CB76B00254CB83A00320D3C /* bridge.m in Sources */,
+				8C6A1379254FA47F00614B4A /* TGFileProperties.m in Sources */,
+				8CB76AFD254CAAA000320D3C /* NSURLTagger.m in Sources */,
 				8C9BC86A254C7F7B00960FDD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
