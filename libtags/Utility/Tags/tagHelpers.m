@@ -15,9 +15,7 @@ fromDictionaryToFilePropertiesArray(NSDictionary *targetDict) {
     
     
     for (id key in targetDict) {
-        FileProperties *target = [[FileProperties alloc] init];
-        target.name = key;
-        target.tags = [targetDict objectForKey:key];
+        FileProperties *target = [[FileProperties alloc] initWithName:key andTagStrings:[targetDict objectForKey:key]];
         [objectList addObject:target];
     }
     

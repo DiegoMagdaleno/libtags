@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C6A139C254FAEF300614B4A"
-               BuildableName = "liblibtags.dylib"
+               BuildableName = "libtags.dylib"
                BlueprintName = "libtags"
                ReferencedContainer = "container:libtags.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C6A139C254FAEF300614B4A"
-            BuildableName = "liblibtags.dylib"
+            BuildableName = "libtags.dylib"
             BlueprintName = "libtags"
             ReferencedContainer = "container:libtags.xcodeproj">
          </BuildableReference>

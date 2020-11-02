@@ -7,16 +7,37 @@
 
 #import <Foundation/Foundation.h>
 #import "FileProperties.h"
+#import "../Utility/Tags/GetHelpers.h"
+#import "TagComponents.h"
 
 @implementation FileProperties
 @synthesize name;
-@synthesize tags;
+@synthesize tagStings;
 
-- (id)initWithName:(NSString *)name tags:(NSArray *)tags {
+NSMutableArray *tags;
+
+- (id)initWithName:(NSString *)name andTagStrings:(NSArray *)tagStrings {
     if (self = [super init]) {
         self.name = name;
-        self.tags = tags;
+        self.tagStings = tagStings;
+        NSDictionary *tagDictList = getTagList();
+        for (id component in tagStings) {
+            [tags addObject:tagDictList[component]];
+        }
+        
     }
     return self;
 }
+
+- (NSArray*) getTagsObject {
+    return tags;
+}
+
+- (NSString*) getName {
+    return self.name;
+}
+
+
+
+
 @end

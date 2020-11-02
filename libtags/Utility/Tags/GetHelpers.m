@@ -11,7 +11,7 @@
 #import "tagHelpers.h"
 
 
-const NSArray*
+const NSDictionary*
 getTagList() {
     /*
      Reversing Finder Theory:
@@ -20,8 +20,7 @@ getTagList() {
      p - if the user created it or if it was by default seems to be YES if user created it and NO or NULL (?) if it was created by Apple
      v - Unkown requires more research
      */
-    NSMutableArray *tagObjectList = [NSMutableArray array];
-    
+    NSMutableDictionary *tagListMap = [NSMutableDictionary dictionary];
 
 
     NSString *preferencesPath = [NSString stringWithFormat:@"%@/Library/SyncedPreferences/com.apple.finder.plist", NSHomeDirectory()];
@@ -40,12 +39,11 @@ getTagList() {
         
         TagComponent *initTagComponentObject = [[TagComponent alloc] initWithName:eachTagSession[@"n"] andColorID:[eachTagSession[@"l"] intValue]];
         
-        [tagObjectList addObject:initTagComponentObject];
-
+        tagListMap[[initTagComponentObject getName]] = initTagComponentObject;
+        
     }
     
-    
-    return tagObjectList;
+    return tagListMap;
 }
 
 const NSArray*

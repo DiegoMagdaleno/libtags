@@ -8,7 +8,7 @@
 #ifndef GetHelpers_h
 #define GetHelpers_h
 
-const NSArray* getTagList(void);
+const NSDictionary* getTagList(void);
 const NSArray* getTagsOfFile(char const*);
 
 #endif /* GetHelpers_h */
