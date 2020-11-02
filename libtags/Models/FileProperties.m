@@ -28,6 +28,7 @@
     const NSDictionary *tagDictList = getTagList();
     
     for (NSString* component in self.tagStrings) {
+                
         [tags addObject:tagDictList[component]];
     }
     

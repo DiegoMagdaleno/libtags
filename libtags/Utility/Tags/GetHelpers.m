@@ -39,8 +39,10 @@ getTagList() {
         
         TagComponent *initTagComponentObject = [[TagComponent alloc] initWithName:eachTagSession[@"n"] andColorID:[eachTagSession[@"l"] intValue]];
         
-        tagListMap[[initTagComponentObject getName]] = initTagComponentObject;
-        
+        NSString *targetName = [initTagComponentObject getName];
+     
+        tagListMap[targetName] = initTagComponentObject;
+    
     }
     
     return tagListMap;
