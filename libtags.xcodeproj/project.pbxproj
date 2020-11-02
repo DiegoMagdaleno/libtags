@@ -8,47 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8C6A13BD254FAF4800614B4A /* NSURLTagger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13AB254FAF4800614B4A /* NSURLTagger.m */; };
-		8C6A13BE254FAF4800614B4A /* NSURLTagger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AC254FAF4800614B4A /* NSURLTagger.h */; };
-		8C6A13BF254FAF4800614B4A /* addAndRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AF254FAF4800614B4A /* addAndRemove.h */; };
+		8C6A13BE254FAF4800614B4A /* NSURLTagger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AC254FAF4800614B4A /* NSURLTagger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6A13BF254FAF4800614B4A /* addAndRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AF254FAF4800614B4A /* addAndRemove.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C0254FAF4800614B4A /* GetHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B0254FAF4800614B4A /* GetHelpers.m */; };
-		8C6A13C1254FAF4800614B4A /* tagHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B1254FAF4800614B4A /* tagHelpers.h */; };
-		8C6A13C2254FAF4800614B4A /* GetHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B2254FAF4800614B4A /* GetHelpers.h */; };
+		8C6A13C1254FAF4800614B4A /* tagHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B1254FAF4800614B4A /* tagHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6A13C2254FAF4800614B4A /* GetHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B2254FAF4800614B4A /* GetHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C3254FAF4800614B4A /* addAndRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B3254FAF4800614B4A /* addAndRemove.m */; };
 		8C6A13C4254FAF4800614B4A /* tagHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B4254FAF4800614B4A /* tagHelpers.m */; };
 		8C6A13C5254FAF4800614B4A /* TGFileProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B6254FAF4800614B4A /* TGFileProperties.m */; };
-		8C6A13C6254FAF4800614B4A /* TGFileProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B7254FAF4800614B4A /* TGFileProperties.h */; };
-		8C6A13C7254FAF4800614B4A /* FileProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B9254FAF4800614B4A /* FileProperties.h */; };
-		8C6A13C8254FAF4800614B4A /* TagComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13BA254FAF4800614B4A /* TagComponents.h */; };
+		8C6A13C6254FAF4800614B4A /* TGFileProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B7254FAF4800614B4A /* TGFileProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6A13C7254FAF4800614B4A /* FileProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B9254FAF4800614B4A /* FileProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6A13C8254FAF4800614B4A /* TagComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13BA254FAF4800614B4A /* TagComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C9254FAF4800614B4A /* TagComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13BB254FAF4800614B4A /* TagComponents.m */; };
 		8C6A13CA254FAF4800614B4A /* FileProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13BC254FAF4800614B4A /* FileProperties.m */; };
-		8C6A13CE254FB04200614B4A /* NSURLTagger.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AC254FAF4800614B4A /* NSURLTagger.h */; };
-		8C6A13D0254FB04800614B4A /* TagComponents.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13BA254FAF4800614B4A /* TagComponents.h */; };
-		8C6A13D2254FB04C00614B4A /* TGFileProperties.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B7254FAF4800614B4A /* TGFileProperties.h */; };
-		8C6A13D4254FB04F00614B4A /* FileProperties.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B9254FAF4800614B4A /* FileProperties.h */; };
-		8C6A13D6254FB05200614B4A /* addAndRemove.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AF254FAF4800614B4A /* addAndRemove.h */; };
-		8C6A13D8254FB05500614B4A /* GetHelpers.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B2254FAF4800614B4A /* GetHelpers.h */; };
-		8C6A13DA254FB05900614B4A /* tagHelpers.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B1254FAF4800614B4A /* tagHelpers.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8C6A13CD254FB01000614B4A /* Copy Headers */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				8C6A13DA254FB05900614B4A /* tagHelpers.h in Copy Headers */,
-				8C6A13D8254FB05500614B4A /* GetHelpers.h in Copy Headers */,
-				8C6A13D6254FB05200614B4A /* addAndRemove.h in Copy Headers */,
-				8C6A13D4254FB04F00614B4A /* FileProperties.h in Copy Headers */,
-				8C6A13D2254FB04C00614B4A /* TGFileProperties.h in Copy Headers */,
-				8C6A13D0254FB04800614B4A /* TagComponents.h in Copy Headers */,
-				8C6A13CE254FB04200614B4A /* NSURLTagger.h in Copy Headers */,
-			);
-			name = "Copy Headers";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C6A139D254FAEF300614B4A /* liblibtags.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibtags.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,7 +156,6 @@
 				8C6A1399254FAEF300614B4A /* Headers */,
 				8C6A139A254FAEF300614B4A /* Sources */,
 				8C6A139B254FAEF300614B4A /* Frameworks */,
-				8C6A13CD254FB01000614B4A /* Copy Headers */,
 			);
 			buildRules = (
 			);
@@ -361,8 +333,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "$(TARGET_PREFIX)/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/include";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -373,8 +347,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "$(TARGET_PREFIX)/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PREFIX_TARGET)/include";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
