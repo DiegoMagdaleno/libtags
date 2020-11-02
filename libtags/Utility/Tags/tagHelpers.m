@@ -21,9 +21,5 @@ fromDictionaryToFilePropertiesArray(NSDictionary *targetDict) {
         [objectList addObject:target];
     }
     
-    for (id key in objectList) {
-        NSLog(@"%@,%@", [key name], [key tags]);
-    }
-    
     return objectList;
 }
