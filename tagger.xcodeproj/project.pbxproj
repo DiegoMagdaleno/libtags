@@ -91,6 +91,24 @@
 			path = Tags;
 			sourceTree = "<group>";
 		};
+		8C6A1392254FADEC00614B4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CB76AFB254CAA4E00320D3C /* NSURLTagger.h */,
+				8CB76AFC254CAAA000320D3C /* NSURLTagger.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C6A1393254FADFD00614B4A /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				8C6A1377254FA41400614B4A /* TGFileProperties.h */,
+				8C6A1378254FA47F00614B4A /* TGFileProperties.m */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		8C9BC85D254C7F7A00960FDD = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +128,11 @@
 		8C9BC868254C7F7B00960FDD /* tagger */ = {
 			isa = PBXGroup;
 			children = (
+				8C6A1393254FADFD00614B4A /* Structs */,
+				8C6A1392254FADEC00614B4A /* Extensions */,
 				8C6A1376254F9D8E00614B4A /* Models */,
 				8C9BC869254C7F7B00960FDD /* main.m */,
-				8C6A1378254FA47F00614B4A /* TGFileProperties.m */,
 				8C6A137C254FA5F700614B4A /* Utility */,
-				8C6A1377254FA41400614B4A /* TGFileProperties.h */,
-				8CB76AFB254CAA4E00320D3C /* NSURLTagger.h */,
-				8CB76AFC254CAAA000320D3C /* NSURLTagger.m */,
 			);
 			path = tagger;
 			sourceTree = "<group>";
