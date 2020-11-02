@@ -13,7 +13,7 @@
 @interface FileProperties : NSObject
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSArray *tagStings;
+@property (nonatomic, strong) NSArray *tagStrings;
 
 - (id)initWithName:(NSString *)name andTagStrings: (NSArray*) tags;
 

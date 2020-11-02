@@ -12,24 +12,25 @@
 
 @implementation FileProperties
 @synthesize name;
-@synthesize tagStings;
-
-NSMutableArray *tags;
+@synthesize tagStrings;
 
 - (id)initWithName:(NSString *)name andTagStrings:(NSArray *)tagStrings {
     if (self = [super init]) {
         self.name = name;
-        self.tagStings = tagStings;
-        NSDictionary *tagDictList = getTagList();
-        for (id component in tagStings) {
-            [tags addObject:tagDictList[component]];
-        }
-        
+        self.tagStrings = tagStrings;
     }
     return self;
 }
 
 - (NSArray*) getTagsObject {
+    NSMutableArray* tags = [NSMutableArray array];
+    
+    const NSDictionary *tagDictList = getTagList();
+    
+    for (NSString* component in self.tagStrings) {
+        [tags addObject:tagDictList[component]];
+    }
+    
     return tags;
 }
 
