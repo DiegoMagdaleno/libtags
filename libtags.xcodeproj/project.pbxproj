@@ -321,7 +321,7 @@
 				DYLIB_CURRENT_VERSION = 0.0.1;
 				INFOPLIST_FILE = "$(SRCROOT)/libtags/Info.plist";
 				INSTALL_PATH = /lib;
-				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(PROJECT_NAME)";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(PROJECT_NAME).dylib";
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diegomagdaleno.libtags;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,7 +339,7 @@
 				DYLIB_CURRENT_VERSION = 0.0.1;
 				INFOPLIST_FILE = "$(SRCROOT)/libtags/Info.plist";
 				INSTALL_PATH = /lib;
-				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(PROJECT_NAME)";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(PROJECT_NAME).dylib";
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diegomagdaleno.libtags;
 				PRODUCT_NAME = "$(TARGET_NAME)";
