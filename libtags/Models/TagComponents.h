@@ -14,6 +14,8 @@
 @property (nonatomic, strong) NSString *name;
 @property (assign) int colorID;
 
+- (int) colorID UNAVAILABLE_ATTRIBUTE;
+
 - (id) initWithName:(NSString*)name andColorID:(int)colorID;
 - (NSString*) getName;
 - (NSString*) getColorTagName;
