@@ -8,7 +8,7 @@
 #ifndef addAndRemove_h
 #define addAndRemove_h
 
-BOOL setTagForFile(char const*, char const*);
-BOOL removeTagForFile(char const*, char const*);
+BOOL setTagForFile(NSString*, NSString*);
+BOOL removeTagForFile(NSString*, NSString*);
 
 #endif /* addAndRemove_h */

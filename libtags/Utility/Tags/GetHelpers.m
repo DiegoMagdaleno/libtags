@@ -49,10 +49,8 @@ getTagList() {
 }
 
 const NSArray*
-getTagsOfFile(char const* pathRaw){
-    
-    NSString *path = [NSString stringWithUTF8String:pathRaw];
-    
+getTagsOfFile(NSString* path){
+        
     NSMutableArray *fileList = [NSMutableArray array];
     NSMutableDictionary *mappedFiles = [NSMutableDictionary dictionary];
     /*

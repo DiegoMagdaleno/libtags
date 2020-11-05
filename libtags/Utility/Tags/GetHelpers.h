@@ -9,6 +9,6 @@
 #define GetHelpers_h
 
 const NSDictionary* getTagList(void);
-const NSArray* getTagsOfFile(char const*);
+const NSArray* getTagsOfFile(NSString*);
 
 #endif /* GetHelpers_h */

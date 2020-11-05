@@ -10,11 +10,8 @@
 #include "NSURLTagger.h"
 
 BOOL
-setTagForFile(char const* pathRaw, char const* targetTagRaw){
-    
-    NSString *path = [NSString stringWithUTF8String:pathRaw];
-    NSString *targetTag = [NSString stringWithUTF8String:targetTagRaw];
-    
+setTagForFile(NSString* path, NSString* targetTag){
+        
     NSURL *fileURL = [[NSURL alloc] initFileURLWithPath:path];
     
     NSMutableArray *appendAbleEditableTags = [NSMutableArray arrayWithArray:[fileURL GetTags]];
@@ -30,9 +27,7 @@ setTagForFile(char const* pathRaw, char const* targetTagRaw){
 }
 
 BOOL
-removeTagForFile(char const* pathRaw, char const* targetTagRaw) {
-    NSString *path = [NSString stringWithUTF8String:pathRaw];
-    NSString *targetTag = [NSString stringWithUTF8String:targetTagRaw];
+removeTagForFile(NSString* path, NSString* targetTag) {
     
     NSURL *fileURL = [[NSURL alloc] initFileURLWithPath:path];
     
