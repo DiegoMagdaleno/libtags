@@ -15,9 +15,13 @@
     NSArray *currentTags = nil;
     NSError *tagError = nil;
     
-     [self getResourceValue:&currentTags forKey:NSURLTagNamesKey error:&tagError];
+    BOOL success = [self getResourceValue:&currentTags forKey:NSURLTagNamesKey error:&tagError];
     
     
-    return currentTags;
+    if (success) {
+        return currentTags;
+    } else {
+        return nil;
+    }
 }
 @end

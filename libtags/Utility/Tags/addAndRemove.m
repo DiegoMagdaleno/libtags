@@ -23,6 +23,7 @@ setTagForFile(NSString* path, NSString* targetTag){
     }
     
     BOOL success = [fileURL setResourceValue:appendAbleEditableTags forKey:NSURLTagNamesKey error:NULL];
+    
     return success;
 }
 
