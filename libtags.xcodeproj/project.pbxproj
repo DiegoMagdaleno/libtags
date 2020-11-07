@@ -18,6 +18,7 @@
 		8C6A13C8254FAF4800614B4A /* TagComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13BA254FAF4800614B4A /* TagComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C9254FAF4800614B4A /* TagComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13BB254FAF4800614B4A /* TagComponents.m */; };
 		8C6A13CA254FAF4800614B4A /* FileProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13BC254FAF4800614B4A /* FileProperties.m */; };
+		8C82A79B2557233E00D3CFF3 /* GetHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC074ED25571A0B00CACA34 /* GetHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +129,7 @@
 				8C6A13BE254FAF4800614B4A /* NSURLTagger.h in Headers */,
 				8C6A13C8254FAF4800614B4A /* TagComponents.h in Headers */,
 				8C34236125571D26009FB137 /* TagManager.h in Headers */,
+				8C82A79B2557233E00D3CFF3 /* GetHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
