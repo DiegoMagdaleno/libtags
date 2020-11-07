@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		8C6A13BD254FAF4800614B4A /* NSURLTagger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13AB254FAF4800614B4A /* NSURLTagger.m */; };
 		8C6A13BE254FAF4800614B4A /* NSURLTagger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AC254FAF4800614B4A /* NSURLTagger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C6A13BF254FAF4800614B4A /* addAndRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13AF254FAF4800614B4A /* addAndRemove.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C0254FAF4800614B4A /* GetHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B0254FAF4800614B4A /* GetHelpers.m */; };
 		8C6A13C1254FAF4800614B4A /* tagHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B1254FAF4800614B4A /* tagHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C6A13C2254FAF4800614B4A /* GetHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B2254FAF4800614B4A /* GetHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C6A13C3254FAF4800614B4A /* addAndRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B3254FAF4800614B4A /* addAndRemove.m */; };
+		8C6A13C3254FAF4800614B4A /* TagManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B3254FAF4800614B4A /* TagManager.m */; };
 		8C6A13C4254FAF4800614B4A /* tagHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A13B4254FAF4800614B4A /* tagHelpers.m */; };
 		8C6A13C7254FAF4800614B4A /* FileProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13B9254FAF4800614B4A /* FileProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C6A13C8254FAF4800614B4A /* TagComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A13BA254FAF4800614B4A /* TagComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,16 +24,16 @@
 		8C6A139D254FAEF300614B4A /* libtags.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtags.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6A13AB254FAF4800614B4A /* NSURLTagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLTagger.m; sourceTree = "<group>"; };
 		8C6A13AC254FAF4800614B4A /* NSURLTagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLTagger.h; sourceTree = "<group>"; };
-		8C6A13AF254FAF4800614B4A /* addAndRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addAndRemove.h; sourceTree = "<group>"; };
 		8C6A13B0254FAF4800614B4A /* GetHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetHelpers.m; sourceTree = "<group>"; };
 		8C6A13B1254FAF4800614B4A /* tagHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tagHelpers.h; sourceTree = "<group>"; };
-		8C6A13B2254FAF4800614B4A /* GetHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetHelpers.h; sourceTree = "<group>"; };
-		8C6A13B3254FAF4800614B4A /* addAndRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addAndRemove.m; sourceTree = "<group>"; };
+		8C6A13B3254FAF4800614B4A /* TagManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagManager.m; sourceTree = "<group>"; };
 		8C6A13B4254FAF4800614B4A /* tagHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tagHelpers.m; sourceTree = "<group>"; };
 		8C6A13B9254FAF4800614B4A /* FileProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileProperties.h; sourceTree = "<group>"; };
 		8C6A13BA254FAF4800614B4A /* TagComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagComponents.h; sourceTree = "<group>"; };
 		8C6A13BB254FAF4800614B4A /* TagComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagComponents.m; sourceTree = "<group>"; };
 		8C6A13BC254FAF4800614B4A /* FileProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileProperties.m; sourceTree = "<group>"; };
+		8CC074E82557116800CACA34 /* TagManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagManager.h; sourceTree = "<group>"; };
+		8CC074ED25571A0B00CACA34 /* GetHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetHelpers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +94,11 @@
 		8C6A13AE254FAF4800614B4A /* Tags */ = {
 			isa = PBXGroup;
 			children = (
-				8C6A13AF254FAF4800614B4A /* addAndRemove.h */,
 				8C6A13B0254FAF4800614B4A /* GetHelpers.m */,
+				8CC074ED25571A0B00CACA34 /* GetHelpers.h */,
 				8C6A13B1254FAF4800614B4A /* tagHelpers.h */,
-				8C6A13B2254FAF4800614B4A /* GetHelpers.h */,
-				8C6A13B3254FAF4800614B4A /* addAndRemove.m */,
+				8C6A13B3254FAF4800614B4A /* TagManager.m */,
+				8CC074E82557116800CACA34 /* TagManager.h */,
 				8C6A13B4254FAF4800614B4A /* tagHelpers.m */,
 			);
 			path = Tags;
@@ -124,11 +122,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C6A13C2254FAF4800614B4A /* GetHelpers.h in Headers */,
 				8C6A13C7254FAF4800614B4A /* FileProperties.h in Headers */,
 				8C6A13C1254FAF4800614B4A /* tagHelpers.h in Headers */,
 				8C6A13BE254FAF4800614B4A /* NSURLTagger.h in Headers */,
-				8C6A13BF254FAF4800614B4A /* addAndRemove.h in Headers */,
 				8C6A13C8254FAF4800614B4A /* TagComponents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,7 +189,7 @@
 				8C6A13BD254FAF4800614B4A /* NSURLTagger.m in Sources */,
 				8C6A13C0254FAF4800614B4A /* GetHelpers.m in Sources */,
 				8C6A13C9254FAF4800614B4A /* TagComponents.m in Sources */,
-				8C6A13C3254FAF4800614B4A /* addAndRemove.m in Sources */,
+				8C6A13C3254FAF4800614B4A /* TagManager.m in Sources */,
 				8C6A13C4254FAF4800614B4A /* tagHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

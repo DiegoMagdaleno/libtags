@@ -11,6 +11,14 @@
 #import "tagHelpers.h"
 
 
+/**
+Get a list of all the available tags on the filesystem
+
+- returns: tagListMap
+
+ # Notes: #
+ 1. test
+*/
 const NSDictionary*
 getTagList() {
     /*
